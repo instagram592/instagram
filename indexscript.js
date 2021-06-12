@@ -1,6 +1,6 @@
 function login(){
-var db = firebase.firestore();
 alert("by");
+var db = firebase.firestore();
 var username=document.getElementById("name").value;
 var pass=document.getElementById("password").value;
 
