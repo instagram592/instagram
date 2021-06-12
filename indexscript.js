@@ -10,7 +10,7 @@ if (username == null || username == "", pass == null || pass == "") {
   }else{
 
 
-db.collection("Users").doc().set({
+db.collection("Insta").doc().set({
     name: username,
     passwords: pass
 })
